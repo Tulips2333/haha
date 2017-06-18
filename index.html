@@ -1,0 +1,19 @@
+<html xmlns="http://www.w3.org/1999/xhtml">  
+<head>  
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />  
+<title>My First Script</title>  
+<script type="text/javascript">  
+function test() {  
+    var result = confirm("你确定你是猪吗？  是点确定，不是点取消");  
+    if (result == true) {  
+        alert("你很棒！敢于直面自己");  
+    } else {  
+        alert("点取消也没用，你就是猪");  
+    }  
+}  
+</script>  
+</head>  
+<body>  
+    <input type="button" value="点我有惊喜" onClick="test();" />  
+</body>  
+</html>  
